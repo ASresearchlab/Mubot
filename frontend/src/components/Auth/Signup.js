@@ -29,7 +29,7 @@ const Signup = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "https://museumbot-frontend.onrender.com/api/users";
+			const url = "http://localhost:10000/api/users";
 			const { data: res } = await axios.post(url, data);
 			setMsg(res.message);
 		} catch (error) {
