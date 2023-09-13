@@ -6,7 +6,7 @@ const connection = require("./db");
 const userRoutes = require("./routes/users");
 const authRoutes = require("./routes/auth");
 const corsOptions = {
-  origin: "https://museumbot-frontend.onrender.com", // Update this to your production frontend URL
+  origin: "https://www.platform.museumbot.eu", // Update this to your production frontend URL
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   optionsSuccessStatus: 204,
